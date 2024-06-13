@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sales.Shared", "Sales.Shared\Sales.Shared.csproj", "{96061D59-5F91-4989-AFC8-95CFAFA4C301}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sales.Shared", "Sales.Shared\Sales.Shared.csproj", "{96061D59-5F91-4989-AFC8-95CFAFA4C301}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sales.API", "Sales.API\Sales.API.csproj", "{840F0318-82D9-40B8-88AF-3DEC06814DAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blazor.WEB", "Blazor.WEB\Blazor.WEB.csproj", "{68F3336D-8E07-4013-9755-8806B016353A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sales.Mobile", "Sales.Mobile\Sales.Mobile.csproj", "{B3DB2489-9B1E-4C2A-ADAA-FF77CA854C53}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,20 @@ Global
 		{96061D59-5F91-4989-AFC8-95CFAFA4C301}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96061D59-5F91-4989-AFC8-95CFAFA4C301}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{96061D59-5F91-4989-AFC8-95CFAFA4C301}.Release|Any CPU.Build.0 = Release|Any CPU
+		{840F0318-82D9-40B8-88AF-3DEC06814DAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{840F0318-82D9-40B8-88AF-3DEC06814DAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{840F0318-82D9-40B8-88AF-3DEC06814DAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{840F0318-82D9-40B8-88AF-3DEC06814DAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68F3336D-8E07-4013-9755-8806B016353A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68F3336D-8E07-4013-9755-8806B016353A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68F3336D-8E07-4013-9755-8806B016353A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68F3336D-8E07-4013-9755-8806B016353A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3DB2489-9B1E-4C2A-ADAA-FF77CA854C53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3DB2489-9B1E-4C2A-ADAA-FF77CA854C53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3DB2489-9B1E-4C2A-ADAA-FF77CA854C53}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B3DB2489-9B1E-4C2A-ADAA-FF77CA854C53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3DB2489-9B1E-4C2A-ADAA-FF77CA854C53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3DB2489-9B1E-4C2A-ADAA-FF77CA854C53}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
