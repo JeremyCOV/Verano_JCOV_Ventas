@@ -6,7 +6,7 @@ using Sales.Shared.Entities;
 namespace Sales.API.Controllers
 {
     [ApiController]
-    [Route("api/countries")]
+    [Route("/api/countries")]
     public class CountriesController: ControllerBase
     {
         private readonly DataContext _context;
@@ -18,9 +18,9 @@ namespace Sales.API.Controllers
 
         //POST
         [HttpPost]
-        public async Task<ActionResult> Post(Country country)
+        public async Task<ActionResult> PostAsync(Country country)
         {
-            _context.Countries.Add(country);
+            _context.Add(country);
             await _context.SaveChangesAsync();
             return Ok(country);
         }
