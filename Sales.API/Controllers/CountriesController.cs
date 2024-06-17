@@ -20,10 +20,16 @@ namespace Sales.API.Controllers
         [HttpPost]
         public async Task<ActionResult> Post(Country country)
         {
-            _context.Add(country);
+            _context.Countries.Add(country);
             await _context.SaveChangesAsync();
             return Ok(country);
         }
+       /* public async Task<ActionResult> PostAsync(Country country)
+        {
+            _context.Countries.Add(country);
+            await _context.SaveChangesAsync();
+            return Ok(country);
+        }*/
 
         //GET
         [HttpGet]
